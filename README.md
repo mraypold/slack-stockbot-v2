@@ -6,7 +6,7 @@ Displays stock prices when queried with a ticker symbol.
 
 Stocks must be prefaced with a $. For example, to query Microsoft, type $MSFT.
 
-Currently under development.
+Currently under development. This is a NodeJS update to a version previously written in python [here](https://github.com/mraypold/slack-stockbot).
 
 ### License
 
