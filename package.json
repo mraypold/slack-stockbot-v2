@@ -1,0 +1,27 @@
+{
+  "name": "slack-stockbot-v2",
+  "version": "0.0.1",
+  "description": "A Slack bot that returns stock prices",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "keywords": [
+    "slack",
+    "stocks"
+  ],
+  "author": {
+    "name": "Michael Raypold",
+    "email": "mraypold@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "slackbots": "^0.5.1",
+    "yahoo-finance": "^0.2.12"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
