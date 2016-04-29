@@ -14,6 +14,10 @@ Currently under development. This is a NodeJS update to a version previously wri
 * Add token to settings in `app.js`
 * `node app.js`
 
+### Issues
+
+* StockBot does not work with private messages.
+
 ### TODO
 
 * Test coverage needs to be improved.
