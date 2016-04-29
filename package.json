@@ -11,6 +11,10 @@
     "slack",
     "stocks"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mraypold/slack-stockbot-v2.git"
+  },
   "author": {
     "name": "Michael Raypold",
     "email": "mraypold@gmail.com"
