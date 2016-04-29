@@ -8,10 +8,15 @@ Stocks must be prefaced with a $. For example, to query Microsoft, type $MSFT.
 
 Currently under development. This is a NodeJS update to a version previously written in python [here](https://github.com/mraypold/slack-stockbot).
 
+### Running
+
+* `npm install`
+* Add token to settings in `app.js`
+* `node app.js`
+
 ### TODO
 
 * Test coverage needs to be improved.
-* StockBot icon.
 
 ### License
 
