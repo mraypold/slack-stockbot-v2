@@ -3,16 +3,14 @@
 var assert = require('chai').assert;
 var StockBot = require('../lib/index.js');
 
-var stockBot = new StockBot({
-    name: 'StockBot',
-    token: 'TOKEN-GOES-HERE'
-});
+var settings = {
+  name: 'StockBot',
+  token: 'TOKEN-GOES-HERE'
+}
+var stockBot = new StockBot(settings);
 
 beforeEach(function() {
-  stockBot = new StockBot({
-    name: 'StockBot',
-    token: 'TOKEN-GOES-HERE'
-  });
+  stockBot = new StockBot(settings);
 });
 
 describe('stockbot', function () {
