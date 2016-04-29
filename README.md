@@ -27,3 +27,7 @@ Currently under development. This is a NodeJS update to a version previously wri
 MIT license
 
 See LICENSE in the git repo for further details.
+
+### References
+
+[ChuckNorrisBot Tutorial](https://scotch.io/tutorials/building-a-slack-bot-with-node-js-and-chuck-norris-super-powers)
